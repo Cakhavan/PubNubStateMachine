@@ -1,0 +1,24 @@
+{
+  "name": "statemachine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cakhavan/PubNubStateMachine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cakhavan/PubNubStateMachine/issues"
+  },
+  "homepage": "https://github.com/Cakhavan/PubNubStateMachine#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1"
+  }
+}
