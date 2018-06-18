@@ -13,10 +13,6 @@ var PubNub = require('pubnub');
    var led_1 = new five.Led(13);
    var led_2 = new five.Led(12);
    var led_3 = new five.Led(11);
-({
-    pin: 2,
-    isPullup: true
-  });
 
    // Create a new `button` hardware instance.
    var button_1 = new five.Button({
@@ -91,13 +87,7 @@ var PubNub = require('pubnub');
                     });   
 
 
-    // "down" the button is pressed
-  button_1.on("up", function() {
-    led_1.off();
-  });
-
-
-  // "up" the button is released
+  // "down" the button is released
   button_1.on("down", function() {
     publish("a");
   });
